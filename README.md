@@ -41,14 +41,23 @@ Transport is `streamable-http`; authentication is a Bearer API key.
 
 ## Tools
 
-| Tool | What it does |
-|---|---|
-| `ransack` | One tool, many modes: `search`, `fetch`, `discover`, `hosts`, `verify`, `research`. Markdown / JSON / hybrid output, recency filter, source-attributed and deduplicated results. |
-| `execute_research` | Multi-step pipeline (discover → fetch → extract → synthesize) into a cited report. |
-| `get_report` | Retrieve a persisted report by `report_id`. |
-| `search_memory` | Semantic recall over previously fetched page chunks. |
-| `tasks_get` | Poll an asynchronous research task. |
-| `ransack_permit_search` | US building-permit lookup (currently Brevard County FL). |
+### ransack
+One tool, many modes: `search`, `fetch`, `discover`, `hosts`, `verify`, `research`. Markdown / JSON / hybrid output, recency filter, source-attributed and deduplicated results.
+
+### execute_research
+Multi-step pipeline (discover → fetch → extract → synthesize) into a cited report.
+
+### get_report
+Retrieve a persisted report by `report_id`.
+
+### search_memory
+Semantic recall over previously fetched page chunks.
+
+### tasks_get
+Poll an asynchronous research task.
+
+### ransack_permit_search
+US building-permit lookup (currently Brevard County FL).
 
 Every result carries a source URL. Pages the server can't read — login-walled pages, bot-blocked retailers — are reported as limitations rather than silently skipped.
 
