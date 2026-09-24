@@ -51,7 +51,6 @@
    | `get_report` | Retrieve a persisted report by `report_id`. |
    | `search_memory` | Semantic recall over previously fetched page chunks. |
    | `tasks_get` | Poll an asynchronous research task. |
-   | `ransack_permit_search` | US building permit lookup (currently Brevard County FL). Keyless, no browser, no captcha. |
 
    ### ransack
    One tool, many modes: `search`, `fetch`, `discover`, `hosts`, `shop`, `verify`, `research`.
@@ -73,9 +72,6 @@
    ### tasks_get
    Poll an asynchronous research task.
 
-   ### ransack_permit_search
-   US building permit lookup (currently Brevard County FL). Keyless and captcha-free.
-
    ---
 
    ## What you actually get back
@@ -85,7 +81,7 @@
    - **Labelled walls.** `[bot wall: <vendor>]` and `[dead page: HTTP 404]` come back as labels. Pages the server cannot read are reported, not guessed.
    - **Per-claim citation verdicts.** Research reports carry a verdict per claim, checked against the sources actually retrieved.
    - **No query rewrites. Ever.** The caller owns site selection. Ransack never appends operators to your query or silently changes what you asked for.
-   - **One key, seven tools.** Search, fetch, discovery, shopping, transcripts, permits and cited research behind a single endpoint.
+   - **One key, six tools.** Search, fetch, discovery, shopping, transcripts and cited research behind a single endpoint.
 
    ---
 
