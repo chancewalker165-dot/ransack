@@ -1,12 +1,17 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.chancewalker165-dot/ransack",
-  "description": "Web search & fetch for AI agents, one MCP endpoint: 12 engines behind one key at ransack.tools. $15/mo flat, 500 calls/day, no credits, failed fetches cost nothing, every fetch returns a pass/fail receipt.",
+  "title": "Ransack",
+  "description": "Web search & fetch MCP for AI agents: 12 engines, one key, flat $15/mo at ransack.tools.",
   "version": "1.0.0",
   "websiteUrl": "https://ransack.tools",
+  "repository": {
+    "url": "https://github.com/chancewalker165-dot/ransack",
+    "source": "github"
+  },
   "remotes": [
     {
-      "transportTypeName": "HTTP",
+      "type": "streamable-http",
       "url": "https://ransack.tools/mcp"
     }
   ]
