@@ -1,12 +1,11 @@
-# Ransack
+# Ransack - Web Search & Fetch MCP Server for AI Agents
 
-   Every SERP, every extractor. One MCP.
+**Ransack is an MCP server that gives AI agents live web search and page fetch through one endpoint and one API key.** Twelve search engines behind a single MCP connection: `search`, `fetch`, `discover`, `hosts`, `shop`, `verify`, plus YouTube. No credits to manage, no per-engine billing: $15/month flat, 500 calls/day, failed fetches cost nothing, and every fetch returns a pass/fail receipt so silent failures cannot burn you.
 
-   Live search, page fetch and cited research for AI agents, from one MCP endpoint, with a source URL on every result and the finding engine named on every search result.
+**This is a hosted service.** This repository contains connection configuration, documentation, and logo; the server source is not public. Connect to:
 
-   **This is a hosted service.** This repository contains the connection configuration, documentation, and logo only; the server source is not public. Connect to:
+```
 
-   ```
    https://ransack.tools/mcp
    ```
 
